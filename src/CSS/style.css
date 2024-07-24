@@ -1,0 +1,120 @@
+.selection-button {
+	-fx-min-width: 130px;
+	-fx-font-family: "Liberation Serif";
+	-fx-font-size: 20px;
+	-fx-background-radius: 16px;
+	-fx-border-radius: 15px;
+	-fx-border-color: #404040;
+	-fx-border-width: 2px;
+}
+
+.course-button {
+	-fx-pref-width: 250px;
+	-fx-font-family: "Liberation Serif";
+	-fx-font-size: 17px;
+	-fx-background-radius: 16px;
+	-fx-border-radius: 15px;
+	-fx-border-color: #404040;
+	-fx-border-width: 2px;
+}
+
+.add-button {
+	-fx-background-color: #eeee8c;
+	-fx-pref-width: 350px;
+	-fx-font-family: "Liberation Serif";
+	-fx-font-size: 20px;
+	-fx-background-radius: 16px;
+	-fx-border-radius: 15px;
+	-fx-border-color: #404040;
+	-fx-border-width: 1px;
+	-fx-background-color:  #f3e95f
+}
+
+.selection-button:hover {
+	-fx-border-color: #666666;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 2, 0, 0, 0);
+}
+
+.submit {
+    -fx-background-color: #e6e6e6;
+    -fx-border-color: #000;
+    -fx-border-width: 1px;
+    -fx-text-fill: #000;
+    -fx-font-size: 35px;
+    -fx-font-weight: 600;
+    -fx-font-family: "Liberation Serif";
+    -fx-alignment: center;
+}
+
+.submit:hover {
+	-fx-background-color:  #d9d9d9;
+}
+
+.removed {
+	-fx-background-color: #ff8080;
+}
+
+.schedule-combo-box {
+	-fx-font-family: "Liberation Serif";
+	-fx-font-size: 20px;
+	-fx-background-color: #e6e6e6;
+	-fx-border-color: #000;
+	-fx-border-width: 1 0 1 0;
+}
+
+.add-space-combo-box{
+	-fx-font-family: "Liberation Serif";
+	-fx-font-size: 15px;
+	-fx-background-color: #e6e6e6;
+	-fx-border-width: 1px;
+	-fx-border-color: #d9d9d9;
+}
+
+.label {
+	-fx-alignment: center;
+}
+
+.preview-pane-vbox {
+	-fx-alignment: center;
+	-fx-padding: 10;
+	-fx-font-family: "Liberation Serif";
+	-fx-font-size: 10;
+}
+
+.electives-vbox{
+	-fx-font-family: "Liberation Serif";
+	-fx-font-size: 15;
+}
+
+.elective {
+	-fx-font-size: 15;
+	-fx-pref-height: 30;
+	-fx-pref-width: 100;
+	-fx-border-color: black;
+	-fx-font-family: "Liberation Serif";
+	-fx-border-color: #404040;
+    -fx-border-radius: 16px;
+    -fx-background-radius: 15px;
+    -fx-border-width: 1px;
+}
+
+.option-gridpane {
+	-fx-background-color: #e6e6e6;
+}
+
+.schedule-button {
+    -fx-background-color: #e6e6e6;
+    -fx-border-color: #000;
+    -fx-border-width: 1 0 1 0;
+    -fx-text-fill: #000;
+    -fx-font-size: 20px;
+    -fx-font-weight: 600;
+    -fx-font-family: "Liberation Serif";
+}
+
+.schedule-button:hover {
+	-fx-border-color: #666666;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 2, 0, 0, 0);
+}
+
+

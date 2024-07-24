@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE courses SYSTEM "course.dtd">
+<courses>
+    <course>
+        <courseName> Ciência da Computação </courseName>
+        <courseId> 42 </courseId>
+        <courseShift> NIGHT_SHIFT </courseShift>
+        <semesters>
+            <semester period="1">
+                <disciplineId> MA111 </disciplineId>
+                <disciplineId> MA141 </disciplineId>
+                <disciplineId> F 128 </disciplineId>
+                <disciplineId> MC102 </disciplineId>
+            </semester>
+            <semester period="2">
+                <disciplineId> MA211 </disciplineId>
+                <disciplineId> MA327 </disciplineId>
+                <disciplineId> F 129 </disciplineId>
+                <disciplineId> MC202 </disciplineId>
+                <disciplineId> MC009 </disciplineId>
+            </semester>
+            <semester period="3">
+                <disciplineId> MA311 </disciplineId>
+                <disciplineId> MC358 </disciplineId>
+                <disciplineId> MC322 </disciplineId>
+                <disciplineId> ME323 </disciplineId>
+            </semester>
+            <semester period="4">
+                <disciplineId> F 229 </disciplineId>
+                <disciplineId> F 328 </disciplineId>
+                <disciplineId> MC458 </disciplineId>
+                <disciplineId> MC536 </disciplineId>
+                <disciplineId> MC602 </disciplineId>
+            </semester>
+            <semester period="5">
+                <disciplineId> MC404 </disciplineId>
+                <disciplineId> MC558 </disciplineId>
+                <disciplineId> MC656 </disciplineId>
+            </semester>
+            <semester period="6">
+                <disciplineId> MC504 </disciplineId>
+                <disciplineId> MC750 </disciplineId>
+                <disciplineId> MS211 </disciplineId>
+            </semester>
+            <semester period="7">
+                <disciplineId> MC732 </disciplineId>
+                <disciplineId> MC832 </disciplineId>
+            </semester>
+            <semester period="8">
+                <disciplineId> CE839 </disciplineId>
+                <disciplineId> MC714 </disciplineId>
+                <disciplineId> MC833 </disciplineId>
+                <disciplineId> MC921 </disciplineId>
+            </semester>
+            <semester period="9">
+                <disciplineId> CE738 </disciplineId>
+            </semester>
+            <semester period="10">
+                <disciplineId> CE304 </disciplineId>
+            </semester>
+        </semesters>
+    </course>
+    <course>
+        <courseName> Engenharia da Computação </courseName>
+        <courseId> 34 </courseId>
+        <courseShift> FULL_TIME </courseShift>
+        <semesters>
+            <semester period="1">
+                <disciplineId> MA111 </disciplineId>
+                <disciplineId> MA141 </disciplineId>
+                <disciplineId> F 128 </disciplineId>
+                <disciplineId> MC102 </disciplineId>
+                <disciplineId> F 129 </disciplineId>
+                <disciplineId> HZ291 </disciplineId>
+                <disciplineId> QG101 </disciplineId>
+            </semester>
+            <semester period="2">
+                <disciplineId> MA211 </disciplineId>
+                <disciplineId> MA327 </disciplineId>
+                <disciplineId> F 228 </disciplineId>
+                <disciplineId> MC202 </disciplineId>
+                <disciplineId> F 229 </disciplineId>
+                <disciplineId> LA122 </disciplineId>
+            </semester>
+            <semester period="3">
+                <disciplineId> EA513 </disciplineId>
+                <disciplineId> F 315 </disciplineId>
+                <disciplineId> F 328 </disciplineId>
+                <disciplineId> MC322 </disciplineId>
+                <disciplineId> F 329 </disciplineId>
+                <disciplineId> MA311 </disciplineId>
+            </semester>
+            <semester period="4">
+                <disciplineId> EA614 </disciplineId>
+                <disciplineId> EA772 </disciplineId>
+                <disciplineId> F 428 </disciplineId>
+                <disciplineId> MC358 </disciplineId>
+                <disciplineId> MC404 </disciplineId>
+            </semester>
+            <semester period="5">
+                <disciplineId> EE533 </disciplineId>
+                <disciplineId> MC458 </disciplineId>
+                <disciplineId> MC536 </disciplineId>
+                <disciplineId> MC613 </disciplineId>
+                <disciplineId> MC750 </disciplineId>
+                <disciplineId> ME323 </disciplineId>
+            </semester>
+            <semester period="6">
+                <disciplineId> EE534 </disciplineId>
+                <disciplineId> EM423 </disciplineId>
+                <disciplineId> MC558 </disciplineId>
+                <disciplineId> MC656 </disciplineId>
+                <disciplineId> MC732 </disciplineId>
+                <disciplineId> MS211 </disciplineId>
+            </semester>
+            <semester period="7">
+                <disciplineId> BE310 </disciplineId>
+                <disciplineId> CE304 </disciplineId>
+                <disciplineId> MC504 </disciplineId>
+            </semester>
+            <semester period="8">
+                <disciplineId> CE838 </disciplineId>
+                <disciplineId> CE839 </disciplineId>
+                <disciplineId> MC832 </disciplineId>
+            </semester>
+            <semester period="9">
+                <disciplineId> CE738 </disciplineId>
+                <disciplineId> MC714 </disciplineId>
+                <disciplineId> MC833 </disciplineId>
+                <disciplineId> MC921 </disciplineId>
+            </semester>
+        </semesters>
+    </course>
+</courses>

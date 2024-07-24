@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1288.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.GraphicInterface.Controllers.SelectionController">
+    <children>
+        <GridPane alignment="TOP_CENTER" gridLinesVisible="true" prefHeight="716.0" prefWidth="1288.0" VBox.vgrow="ALWAYS">
+            <columnConstraints>
+                <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" prefWidth="640.0" />
+                <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" prefWidth="640.0" />
+                <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" prefWidth="640.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints prefHeight="100.0" />
+                <RowConstraints maxHeight="1.7976931348623157E308" prefHeight="769.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="130.0" minHeight="60.0" vgrow="ALWAYS" />
+            </rowConstraints>
+            <children>
+                <Label text="Locais" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <font>
+                        <Font name="Liberation Serif" size="50.0" />
+                    </font>
+                    <GridPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </GridPane.margin>
+                </Label>
+                <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="NEVER" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                    <GridPane.margin>
+                        <Insets />
+                    </GridPane.margin>
+                    <content>
+                        <FlowPane fx:id="spacesFlowPane" alignment="TOP_CENTER" columnHalignment="CENTER" hgap="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" nodeOrientation="LEFT_TO_RIGHT" prefHeight="621.0" prefWidth="355.0" prefWrapLength="1000.0" vgap="10.0">
+                            <children>
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB1" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB3" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB4" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB5" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB7" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB8" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB9" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB10" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB11" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB12" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB13" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB14" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB15" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CB16" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="PB1" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="PB2" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="PB3" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="PB4" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="PB5" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="PB13" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="PB15" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CC300" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CC301" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CC304" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CC350" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CC351" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CC352" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CC353" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CC360" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CC361" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="FE10" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="FE11" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="FE12" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="LF10" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="LE14" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="41.0" prefWidth="130.0" styleClass="selection-button" text="Quadra" textAlignment="CENTER" />
+                                <Button mnemonicParsing="false" onAction="#removeSpace" prefHeight="41.0" styleClass="selection-button" text="Auditório do IC" textAlignment="CENTER" />
+                            </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                        </FlowPane>
+                    </content>
+                </ScrollPane>
+                <Label text="Cursos" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <font>
+                        <Font name="Liberation Serif" size="50.0" />
+                    </font>
+                    <GridPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </GridPane.margin>
+                </Label>
+                <ScrollPane fitToWidth="true" hbarPolicy="NEVER" prefHeight="939.0" prefWidth="221.0" vbarPolicy="NEVER" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets />
+                    </GridPane.margin>
+                    <content>
+                        <VBox fx:id="coursesVBox" spacing="10.0">
+                            <children>
+                                <Button alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#removeCourse" prefHeight="50.0" prefWidth="250.0" styleClass="selection-button" text="34 - Engenharia da Computação" textAlignment="CENTER">
+                                <font>
+                                    <Font name="Liberation Serif" size="20.0" />
+                                </font></Button>
+                                <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#removeCourse" prefHeight="50.0" prefWidth="662.0" styleClass="selection-button" text="42 - Ciência da Computação">
+                                <font>
+                                    <Font name="Liberation Serif" size="20.0" />
+                                </font></Button>
+                            </children>
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+                <Label text="Disciplinas" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <font>
+                        <Font name="Liberation Serif" size="50.0" />
+                    </font>
+                    <GridPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </GridPane.margin>
+                </Label>
+                <FlowPane fx:id="electivesFlowPane" alignment="TOP_CENTER" columnHalignment="RIGHT" hgap="10.0" prefHeight="578.0" prefWidth="447.0" rowValignment="TOP" vgap="10.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#removeElective" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="LA114" />
+                        <Button mnemonicParsing="false" onAction="#removeElective" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="EF543" />
+                        <Button mnemonicParsing="false" onAction="#removeElective" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="MC658" />
+                        <Button mnemonicParsing="false" onAction="#removeElective" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="MC758" />
+                        <Button mnemonicParsing="false" onAction="#removeElective" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="MC889" />
+                        <Button mnemonicParsing="false" onAction="#removeElective" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="MC948" />
+                        <Button mnemonicParsing="false" onAction="#removeElective" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="HL143" />
+                        <Button mnemonicParsing="false" onAction="#removeElective" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="HL144" />
+                        <Button mnemonicParsing="false" onAction="#removeElective" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="CP043" />
+                        <Button mnemonicParsing="false" onAction="#removeElective" prefHeight="40.0" prefWidth="130.0" styleClass="selection-button" text="EF315" />
+                    </children>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                </FlowPane>
+                  <Button alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleAddElective" prefHeight="60.0" prefWidth="430.0" style="-fx-background-color: #ffff99;" text="Adicionar Disciplina" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Liberation Serif" size="31.0" />
+               </font>
+            </Button>
+                    <Button alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleAddSpace" prefHeight="60.0" prefWidth="429.0" style="-fx-background-color: #ffff99;" text="Adicionar Local" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Liberation Serif" size="31.0" />
+               </font>
+            </Button>
+            <Label fx:id="attemptsLabel" alignment="BOTTOM_LEFT" contentDisplay="BOTTOM" maxHeight="-Infinity" maxWidth="-Infinity" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="Liberation Serif" size="17.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Label>
+            </children>
+        </GridPane>
+          <Button alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#submit" prefHeight="75.0" prefWidth="1288.0" styleClass="submit" text="Enviar">
+          <cursor>
+              <Cursor fx:constant="DEFAULT" />
+          </cursor>
+          <font>
+              <Font name="Liberation Serif" size="27.0" />
+          </font>
+          </Button>
+    </children>
+</VBox>

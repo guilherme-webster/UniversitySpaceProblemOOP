@@ -1,0 +1,11 @@
+<!ELEMENT disciplines (discipline+)>
+<!ELEMENT discipline (disciplineName,disciplineId,credits,requiredSpaces,possibleInstitutes,professors)>
+<!ELEMENT disciplineName (#PCDATA)>
+<!ELEMENT disciplineId (#PCDATA)>
+<!ELEMENT credits (#PCDATA)>
+<!ELEMENT requiredSpaces (space+)>
+<!ELEMENT space (#PCDATA)>
+<!ELEMENT possibleInstitutes (institute+)>
+<!ELEMENT institute (#PCDATA)>
+<!ELEMENT professors (professor+)>
+<!ELEMENT professor (#PCDATA)>

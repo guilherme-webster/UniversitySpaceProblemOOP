@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.GraphicInterface.Controllers.ScheduleController">
+    <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" minWidth="250.0" prefHeight="1076.0" prefWidth="350.0" vbarPolicy="NEVER">
+        <content>
+          <GridPane maxHeight="1.7976931348623157E308" minWidth="150.0" prefHeight="1278.0" prefWidth="317.0" styleClass="option-gridpane">
+              <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="1.7976931348623157E308" prefHeight="484.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="564.0" prefHeight="173.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="305.0" prefHeight="216.0" valignment="CENTER" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="192.0" prefHeight="192.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+              <children>
+                  <VBox alignment="CENTER_LEFT" minWidth="150.0" prefHeight="489.0" prefWidth="328.0">
+                      <children>
+                          <Label fx:id="invalidCourse" prefHeight="20.0" textFill="#dd0d0d">
+                              <VBox.margin>
+                                  <Insets />
+                              </VBox.margin>
+                              <font>
+                                  <Font name="Liberation Serif" size="15.0" />
+                              </font>
+                          </Label>
+                          <ComboBox fx:id="coursesComboBox" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="35.0" promptText="Curso" styleClass="schedule-combo-box">
+                              <VBox.margin>
+                                  <Insets />
+                              </VBox.margin>
+                          </ComboBox>
+                          <Label fx:id="invalidSemester" contentDisplay="RIGHT" prefHeight="20.0" textFill="#dd0d0d">
+                              <font>
+                                  <Font name="Liberation Serif" size="15.0" />
+                              </font>
+                          </Label>
+                          <ComboBox fx:id="semesterComboBox" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" nodeOrientation="LEFT_TO_RIGHT" prefHeight="35.0" promptText="Semestre" styleClass="schedule-combo-box">
+                              <VBox.margin>
+                                  <Insets bottom="40.0" />
+                              </VBox.margin>
+                          </ComboBox>
+                          <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#loadSchedule" prefHeight="35.0" styleClass="schedule-button" text="Carregar Cronograma">
+                              <font>
+                                  <Font name="Liberation Serif" size="20.0" />
+                              </font>
+                          </Button>
+                          <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#rebuildSchedule" prefHeight="35.0" prefWidth="171.0" styleClass="schedule-button" text="Reconstruir Cronograma">
+                              <font>
+                                  <Font name="Liberation Serif" size="20.0" />
+                              </font>
+                              <VBox.margin>
+                                  <Insets top="20.0" />
+                              </VBox.margin>
+                          </Button>
+                      </children>
+                  </VBox>
+                  <VBox maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" spacing="20.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                      <children>
+                          <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#viewElectives" prefHeight="35.0" styleClass="schedule-button" text="Eletivas">
+                              <font>
+                                  <Font name="Liberation Serif" size="20.0" />
+                              </font>
+                              <VBox.margin>
+                                  <Insets top="20.0" />
+                              </VBox.margin>
+                          </Button>
+                      </children>
+                  </VBox>
+                  <VBox maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" spacing="20.0" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                      <children>
+                          <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#goBack" prefHeight="40.0" prefWidth="174.0" styleClass="schedule-button" text="Voltar">
+                              <font>
+                                  <Font name="Liberation Serif" size="20.0" />
+                              </font>
+                              <VBox.margin>
+                                  <Insets bottom="20.0" />
+                              </VBox.margin>
+                          </Button>
+                      </children>
+                  </VBox>
+                  <VBox maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                      <children>
+                          <Label fx:id="invalidSchedule" prefHeight="20.0" textFill="#dd0d0d">
+                              <font>
+                                  <Font name="Liberation Serif" size="15.0" />
+                              </font>
+                          </Label>
+                          <ComboBox fx:id="scheduleComboBox" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="35.0" prefWidth="179.0" promptText="Cronograma Atual" styleClass="schedule-combo-box">
+                              <VBox.margin>
+                                  <Insets bottom="20.0" />
+                              </VBox.margin>
+                          </ComboBox>
+                          <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#saveSchedule" prefHeight="35.0" prefWidth="177.0" styleClass="schedule-button" text="Salvar">
+                              <font>
+                                  <Font name="Liberation Serif" size="20.0" />
+                              </font>
+                              <VBox.margin>
+                                  <Insets bottom="20.0" />
+                              </VBox.margin>
+                          </Button>
+                      </children>
+                  </VBox>
+              </children>
+          </GridPane>
+        </content>
+    </ScrollPane>
+    <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" prefHeight="1080.0" prefWidth="1550.0" vbarPolicy="NEVER" HBox.hgrow="ALWAYS">
+        <content>
+          <GridPane fx:id="scheduleGridPane" gridLinesVisible="true" minHeight="-Infinity" minWidth="-Infinity">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" prefWidth="150.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" prefWidth="150.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" prefWidth="150.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" prefWidth="150.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" prefWidth="150.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" prefWidth="150.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints prefHeight="85.0" vgrow="SOMETIMES" />
+                  <RowConstraints prefHeight="85.0" vgrow="ALWAYS" />
+                  <RowConstraints prefHeight="85.0" vgrow="ALWAYS" />
+                  <RowConstraints prefHeight="85.0" vgrow="ALWAYS" />
+                  <RowConstraints prefHeight="85.0" vgrow="ALWAYS" />
+                  <RowConstraints prefHeight="85.0" vgrow="ALWAYS" />
+                  <RowConstraints prefHeight="85.0" vgrow="ALWAYS" />
+              </rowConstraints>
+              <children>
+                  <Label text="Segunda" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                      <font>
+                          <Font name="Liberation Serif" size="30.0" />
+                      </font>
+                  </Label>
+                  <Label text="Terça" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                      <font>
+                          <Font name="Liberation Serif" size="30.0" />
+                      </font>
+                  </Label>
+                  <Label text="Quarta" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                      <font>
+                          <Font name="Liberation Serif" size="30.0" />
+                      </font>
+                  </Label>
+                  <Label text="Quinta" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                      <font>
+                          <Font name="Liberation Serif" size="30.0" />
+                      </font>
+                  </Label>
+                  <Label text="Sexta" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                      <font>
+                          <Font name="Liberation Serif" size="30.0" />
+                      </font>
+                  </Label>
+                  <Label text="08h-10h" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                      <font>
+                          <Font name="Liberation Serif" size="30.0" />
+                      </font>
+                  </Label>
+                  <Label text="10h-12h" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                      <font>
+                          <Font name="Liberation Serif" size="30.0" />
+                      </font>
+                  </Label>
+                  <Label text="14h-16h" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                      <font>
+                          <Font name="Liberation Serif" size="30.0" />
+                      </font>
+                  </Label>
+                  <Label text="16h-18h" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                      <font>
+                          <Font name="Liberation Serif" size="30.0" />
+                      </font>
+                  </Label>
+                  <Label text="19h-21h" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                      <font>
+                          <Font name="Liberation Serif" size="30.0" />
+                      </font>
+                  </Label>
+                  <Label text="21h-23h" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                      <font>
+                          <Font name="Liberation Serif" size="30.0" />
+                      </font>
+                  </Label>
+                  <VBox alignment="CENTER" spacing="5.0">
+                      <padding>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </padding>
+                      <children>
+                          <Label fx:id="course" alignment="CENTER" contentDisplay="CENTER" textAlignment="CENTER" wrapText="true">
+                              <font>
+                                  <Font name="Liberation Serif" size="20.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="semester" alignment="CENTER" contentDisplay="CENTER" prefHeight="23.0" prefWidth="193.0">
+                              <font>
+                                  <Font name="Liberation Serif" size="20.0" />
+                              </font>
+                          </Label>
+                      </children>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                      <GridPane.margin>
+                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                      </GridPane.margin>
+                  </VBox>
+              </children>
+          </GridPane>
+        </content>
+    </ScrollPane>
+</HBox>

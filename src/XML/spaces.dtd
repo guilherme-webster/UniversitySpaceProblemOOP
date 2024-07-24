@@ -1,0 +1,5 @@
+<!ELEMENT spaces (space)*>
+<!ELEMENT space (type, institute, id)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT institute (#PCDATA)>
+<!ELEMENT id (#PCDATA)>

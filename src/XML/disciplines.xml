@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE disciplines SYSTEM "disciplines.dtd">
+
+<disciplines>
+    <discipline>
+        <disciplineName> Cálculo I </disciplineName>
+        <disciplineId> MA111 </disciplineId>
+        <credits> 6 </credits>
+        <requiredSpaces> 
+            <space> BasicRoom </space>
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Leithold L. A. Alvarez</professor>
+            <professor>Joerg D. W. Schleicher</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Física Geral I </disciplineName>
+        <disciplineId> F 128 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>José A. Brum</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Geometria Analítica e Vetores </disciplineName>
+        <disciplineId> MA141 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> BasicRoom </space>
+            <space> BasicRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Eder M. Correa</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Algoritmos e Programação de Computadores </disciplineName>
+        <disciplineId> MC102 </disciplineId>
+        <credits> 6 </credits>
+        <requiredSpaces> 
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+            <space> ComputerRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Rafael S. Schouery</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Estrutura de Dados </disciplineName>
+        <disciplineId> MC202 </disciplineId>
+        <credits> 6 </credits>
+        <requiredSpaces> 
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+            <space> ComputerRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Guilherme P. Telles</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Álgebra Linear </disciplineName>
+        <disciplineId> MA327 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> BasicRoom </space>
+            <space> BasicRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Eder M. Correa</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Cálculo II </disciplineName>
+        <disciplineId> MA211 </disciplineId>
+        <credits> 6 </credits>
+        <requiredSpaces> 
+            <space> BasicRoom </space>
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor> Joachim Weber </professor>
+            <professor>Claudemir F. B. Junior</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Física Experimental I </disciplineName>
+        <disciplineId> F 129 </disciplineId>
+        <credits> 2 </credits>
+        <requiredSpaces> 
+            <space> PhysicsLaboratory </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> IFGW </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Luiz F. C. Faria</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Computação e Sociedade </disciplineName>
+        <disciplineId> MC009 </disciplineId>
+        <credits> 2 </credits>
+        <requiredSpaces> 
+            <space> Auditorium </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Claudia M. B. Medeiros</professor>
+        </professors>
+    </discipline>
+    
+    <discipline>
+        <disciplineName> Cálculo III </disciplineName>
+        <disciplineId> MA311 </disciplineId>
+        <credits> 6 </credits>
+        <requiredSpaces> 
+            <space> BasicRoom </space>
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Lucas C.  F. Ferreira</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Fundamentos Matemáticos da Computação </disciplineName>
+        <disciplineId> MC358 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Pedro J.  Rezende</professor>
+        </professors>
+        </discipline>
+
+    <discipline>
+        <disciplineName> Programação Orientada a Objetos </disciplineName>
+        <disciplineId> MC322 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> SlidesRoom </space>
+            <space> ComputerRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Marcos M. Raimundo</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Introdução aos Modelos Probabilísticos </disciplineName>
+        <disciplineId> ME323 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> BasicRoom </space>
+            <space> BasicRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Felipe A. Fernandes</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Tópicos Especiais de Humanidades I </disciplineName>
+        <disciplineId> HZ291 </disciplineId>
+        <credits> 2 </credits>
+        <requiredSpaces> 
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Pedro P. Ferreira</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Química I </disciplineName>
+        <disciplineId> QG101 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor> Fabio Augusto </professor>
+        </professors>
+    </discipline>
+    
+    <discipline>
+        <disciplineName> Física Geral II </disciplineName>
+        <disciplineId> F 228 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor> Diego Muraca </professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Física Experimental II </disciplineName>
+        <disciplineId> F 229 </disciplineId>
+        <credits> 2 </credits>
+        <requiredSpaces> 
+            <space> PhysicsLaboratory </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> IFGW </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Natalia  F. Coutinho</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Inglês Instrumental I </disciplineName>
+        <disciplineId> LA122 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Joacyr T.  Oliveira</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Mecânica Geral I </disciplineName>
+        <disciplineId> F 315 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IFGW </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Andre A. Thomaz</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Física Experimental III </disciplineName>
+        <disciplineId> F 329 </disciplineId>
+        <credits> 2 </credits>
+        <requiredSpaces> 
+            <space> PhysicsLaboratory </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> IFGW </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Francisco P.  M. Rouxinol</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Circuitos Elétricos </disciplineName>
+        <disciplineId> EA513 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IFGW </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Christiano L. Filho</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Física Geral III </disciplineName>
+        <disciplineId> F 328 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Andre M. Paschoal</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Projeto e Análise de Algoritmos I </disciplineName>
+        <disciplineId> MC458 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor> Orlando Lee </professor>
+        </professors>
+    </discipline>
+    
+    <discipline>
+        <disciplineName> Banco de Dados: Teoria e Prática </disciplineName>
+        <disciplineId> MC536 </disciplineId>
+        <credits> 6 </credits>
+        <requiredSpaces>
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+            <space> ComputerRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Célio C. Guimarães</professor>
+            <professor>Claudia M. B. Medeiros</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Circuitos Lógicos e Organização de Computadores </disciplineName>
+        <disciplineId> MC602 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Rodolfo J.  Azevedo</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Organização Básica de Computadores e Linhagem de Montagem </disciplineName>
+        <disciplineId> MC404 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Rodolfo J. Azevedo</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Projeto e Análise de Algoritmos II </disciplineName>
+        <disciplineId> MC558 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Christiane N.Campos</professor>
+            <professor>Flávio K. Miyazawa</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Engenharia de Software </disciplineName>
+        <disciplineId> MC656 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> SlidesRoom </space>
+            <space> ComputerRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Bruno B. P. Cafeo</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Sistemas Operacionais </disciplineName>
+        <disciplineId> MC504 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Gerberth A. R. Rivera</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Construções de Interfaces Homem-Computador </disciplineName>
+        <disciplineId> MC750 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Julio C. D. Reis</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Cálculo Númerico </disciplineName>
+        <disciplineId> MS211 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IMECC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Laecio C. Barros</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Projeto de Sistemas Computacionais </disciplineName>
+        <disciplineId> MC732 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> SlidesRoom </space>
+            <space> ComputerRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Lucas F. Wanner</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Redes de Computadores </disciplineName>
+        <disciplineId> MC832 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> SlidesRoom </space>
+            <space> ComputerRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Nelson L. S. Fonseca</professor>
+        </professors>
+    </discipline>
+    
+    <discipline>
+        <disciplineName> Introdução à Administração para Computação </disciplineName>
+        <disciplineId> CE839 </disciplineId>
+        <credits> 2 </credits>
+        <requiredSpaces>
+            <space> BasicRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IE </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Miguel J. Bacic</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Sistemas Distribuídos </disciplineName>
+        <disciplineId> MC714 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> SlidesRoom </space>
+            <space> ComputerRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Juliana F. Borin</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Programação de Redes de Computadores </disciplineName>
+        <disciplineId> MC833 </disciplineId>
+        <credits> 2 </credits>
+        <requiredSpaces>
+            <space> ComputerRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Edmundo R. M. Madeira</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Projeto e Construção de Compiladores </disciplineName>
+        <disciplineId> MC921 </disciplineId>
+        <credits> 6 </credits>
+        <requiredSpaces>
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+            <space> ComputerRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Guido C. S. Araujo</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Economia para Engenharia </disciplineName>
+        <disciplineId> CE738 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> BasicRoom </space>
+            <space> BasicRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IE </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>José B. S. A. Filho</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Direito </disciplineName>
+        <disciplineId> CE304 </disciplineId>
+        <credits> 2 </credits>
+        <requiredSpaces>
+            <space> BasicRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IE </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Luis R. Vedovato</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Análise de Sinais </disciplineName>
+        <disciplineId> EA614 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> FEEC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor> Levy Boccato </professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Circuitos Lógicos </disciplineName>
+        <disciplineId> EA772 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> FEEC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Denis G. Fantinato</professor>
+            <professor>Ricardo R. Gudwin</professor>
+            <professor>Jose W. M. Bassani</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Física Geral IV </disciplineName>
+        <disciplineId> F 428 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IFGW </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Odilon D. D. C. Junior</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Eletrônica Básica I </disciplineName>
+        <disciplineId> EE533 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> FEEC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor> Pedro Xavier de Oliveira </professor>
+            <professor>Gilliard N. M. Silveira</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Laboratório de Circuitos Digitais </disciplineName>
+        <disciplineId> MC613 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor> Sandro Rigo </professor>
+            <professor> Ricardo Pannain </professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Laboratório de Eletrônica Aplicada </disciplineName>
+        <disciplineId> EE534 </disciplineId>
+        <credits> 2 </credits>
+        <requiredSpaces>
+            <space> EletronicsLaboratory </space>
+            <space> EletronicsLaboratory </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> FEEC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor> Fabiano Fruett </professor>
+            <professor>Bruno S. Masiero</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Resistência dos Materiais </disciplineName>
+        <disciplineId> EM423 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces>
+            <space> BasicRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Freddy A. F. Grijalba</professor>
+            <professor>Euclides  M. Neto</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Ciências do Ambiente </disciplineName>
+        <disciplineId> BE310 </disciplineId>
+        <credits> 2 </credits>
+        <requiredSpaces>
+            <space> BasicRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Mathias M. Pires</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Contabilidade para Engenharia </disciplineName>
+        <disciplineId> CE838 </disciplineId>
+        <credits> 2 </credits>
+        <requiredSpaces>
+            <space> BasicRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IE </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Marcelo P. Cunha</professor>
+            <professor>Rodrigo L. F. Silveira</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Alemão I </disciplineName>
+        <disciplineId> LA114 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IEL </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor> Norma Wucherpfennig </professor>
+        </professors>
+    </discipline>
+
+     <discipline>
+        <disciplineName> Futsal </disciplineName>
+        <disciplineId> EF543 </disciplineId>
+        <credits> 2 </credits>
+        <requiredSpaces> 
+            <space> Court </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> FEF </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Julia B. Augusto</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Projeto de Algoritmos III </disciplineName>
+        <disciplineId> MC658 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Flavio K. Miyazawa</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Teoria dos Jogos Algorítmica </disciplineName>
+        <disciplineId> MC758 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Rafael S. Schouery</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Introdução à Criptografia </disciplineName>
+        <disciplineId> MC889 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Julio C. L. Hernandez</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Geometria Computacional </disciplineName>
+        <disciplineId> MC948 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> IC </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Pedro J. Rezende</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Latim I </disciplineName>
+        <disciplineId> HL143 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> PB </institute>
+            <institute> CB </institute>
+            <institute> IEL </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Isabella T. Cardoso</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Grego Clássico I </disciplineName>
+        <disciplineId> HL144 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> SlidesRoom </space>
+            <space> SlidesRoom </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> CB </institute>
+            <institute> PB </institute>
+            <institute> IEL </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Flavio R. Oliveira</professor>
+        </professors>
+    </discipline>
+
+    <discipline>
+        <disciplineName> Tênis de Mesa </disciplineName>
+        <disciplineId> CP043 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> Court </space>
+            <space> Court </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> FEF </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Milton S. Misuta</professor>
+        </professors>
+    </discipline>
+    
+    <discipline>
+        <disciplineName> Luta </disciplineName>
+        <disciplineId> EF315 </disciplineId>
+        <credits> 4 </credits>
+        <requiredSpaces> 
+            <space> Court </space>
+            <space> Court </space>
+        </requiredSpaces>
+        <possibleInstitutes>
+            <institute> FEF </institute>
+        </possibleInstitutes>
+        <professors>
+            <professor>Luiz G. B. Rufino</professor>
+            <professor>Maria L. T. Alves</professor>
+        </professors>
+    </discipline>
+</disciplines>
